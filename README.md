@@ -4,3 +4,5 @@ Fastboot and ADB for Linux. Need to install on your Android smartphone custom RO
 chmod +x install.sh
 # 
 ./install.sh
+# HOW TO USE
+sudo fastboot <command>
