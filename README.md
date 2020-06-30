@@ -1,9 +1,18 @@
 # fastboot-adb
-Fastboot and ADB for Linux. Need to install on your Android smartphone custom ROM or unlock a bootloader. For install use the install.sh.
-# COMMADS FOR START INSTALL.SH
-chmod +x install.sh
-# 
+Fastboot and ADB for Linux. Need to install on your Android smartphone custom ROM or unlock a bootloader.
+
+## Install
+```bash
+tar -xvf fastboot-adb.tar.gz
 ./install.sh
-# HOW TO USE
-sudo fastboot 'command'
-Example: "sudo fastboot devices"
+```
+
+## Usage
+```bash
+sudo fastboot <command>
+```
+
+## Example
+```bash
+sudo fastboot devices
+```
