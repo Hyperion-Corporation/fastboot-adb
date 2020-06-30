@@ -5,4 +5,5 @@ chmod +x install.sh
 # 
 ./install.sh
 # HOW TO USE
-sudo fastboot <command>
+sudo fastboot 'command'
+Example: "sudo fastboot devices"
